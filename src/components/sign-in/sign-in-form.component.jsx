@@ -2,7 +2,7 @@
 import { useState } from "react";
 
 // UTILS
-import { signInWithGooglePopup, createUserDocumentFromAuth, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
+import { signInWithGooglePopup, signInAuthUserWithEmailAndPassword } from "../../utils/firebase/firebase.utils";
 
 // COMPONENTS
 import FormInput from "../form-input/form-input.component";
