@@ -18,11 +18,10 @@ import './navigation.styles.scss';
 
 // NAVIGATION BAR (TOP LEVEL COMPONENT)
 const Navigation = () => {
-  const { currentUser, setCurrentUser } = useContext(UserContext);
+  const { currentUser } = useContext(UserContext);
 
   const signOutHandler = async () => {
     await signOutUser();
-    setCurrentUser(null);
   }
 
   return (
