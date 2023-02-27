@@ -1,4 +1,4 @@
-// STYELS
+// STYlES
 import './button.styles.scss';
 
 /*

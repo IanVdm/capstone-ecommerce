@@ -4,7 +4,7 @@ import { useContext } from 'react';
 // CONTEXT
 import { CartContext } from '../../contexts/cart.context';
 
-// ASSESTS
+// ASSETS
 import { ReactComponent as ShoppingIcon } from '../../assets/shopping-bag.svg';
 
 // STYLES
